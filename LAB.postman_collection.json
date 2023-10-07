@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "668f4a3b-db89-4df4-a28f-cfbc6eb85171",
+		"name": "LAB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30323828"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "archivo",
+							"type": "file",
+							"src": "/C:/Users/ANDL98/Desktop/archivo.php"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://192.168.1.18/web/subidor.php",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"18"
+					],
+					"path": [
+						"web",
+						"subidor.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
